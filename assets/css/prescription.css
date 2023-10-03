@@ -1,3 +1,96 @@
+.drop-down-container .modal-header {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.drop-down-container .modal-header h1 {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.drop-down-container {
+  text-align: center;
+}
+
+.drop-down-container h1 {
+  color: black;
+}
+
+.drop-down-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.drop-down-container form button {
+  background-color: #2f79d9;
+  color: white;
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 10px;
+  border: transparent;
+}
+
+.drop-down-container input {
+  color: black;
+  border: 0;
+  border-bottom: 1px solid rgb(156, 156, 156);
+}
+
+.drop-down-container input:focus {
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.hidden-drop {
+  display: none;
+  display: flex;
+  flex-direction: column !important;
+  top: 0;
+  right: 0;
+  margin-top: 200px;
+  position: absolute;
+  margin-right: 10px;
+}
+
+.footer-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-modal button {
+  background: transparent;
+  color: black;
+  border: transparent;
+}
+
+.modal-button-container button {
+  border: transparent;
+  text-align: right !important;
+  color: black;
+  padding: 0;
+}
+
+.modal-button-container {
+  padding: 10px;
+  background-color: aliceblue;
+  text-align: left;
+  display: flex !important;
+  flex-direction: column !important;
+  margin-left: -35px;
+}
+
+.modal-dialog {
+  width: 300px;
+}
+
+#toggleButton {
+  border: none;
+}
+
 .prescription {
   background-color: rgb(227, 227, 227);
 }

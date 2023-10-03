@@ -118,6 +118,7 @@
         <div class=" main-prescription col-lg-12 col-md-12  mb-4">
           <!-- date share start here--------- -->
           <div class="date-share">
+
             <div class="date">
             <p>August 8, 2018</p>
             </div>
@@ -125,20 +126,71 @@
           <div class="share">
             <a href="#">Share</a>
           </div>
-          <div class="add">
-            <!-- options -->
-            <div class="dropdown">
-              <a class=" btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Add
-              </a>     
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+
+
+          
+          <div class="add">    
+            
+
+            <div class="drop-down-container">
+              <button id="toggleButton">Add ▼</button>
+              <div style="display: none;" id="toggleElement" class="hidden-drop">
+                <!-- <p>he</p>
+                <p>he</p> -->
+                <!-- Button trigger modal -->
+                <span class="modal-button-container">
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Wight
+                  </button>
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Heart Rate
+                  </button>
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Blood Glucose
+                  </button>
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Blood Pressure
+                  </button>
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    List Of Doctor
+                  </button>
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                   Emergency Contact
+                  </button>
+                </span>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div  class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">WEIGHT</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form action="#">
+                          <input type="text" placeholder="Enter Date Here">
+                          <input type="text" placeholder="Enter Time Here">
+                          <input type="text" placeholder="Enter Weight Here">
+                          <button type="submit">Submit</button>
+                        </form>
+                      </div>
+                      <div  class="modal-footer footer-modal">
+
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
-          </div>
+            
+          </div> 
             </div>
+            
           </div>     
         </div>
       </div>
@@ -411,6 +463,25 @@
     </div>
   </div>
 </footer><!-- End Footer -->
+
+
+
+  <!-- script------------- -->
+  <script>
+    const toggleButton = document.getElementById('toggleButton');
+    const toggleElement = document.getElementById('toggleElement');
+
+    let isElementVisible = false;
+
+    toggleButton.addEventListener('click', () => {
+      if (isElementVisible) {
+        toggleElement.style.display = 'none';
+      } else {
+        toggleElement.style.display = 'block';
+      }
+      isElementVisible = !isElementVisible;
+    });
+  </script>
 
 <!-- bootstrap-- -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
