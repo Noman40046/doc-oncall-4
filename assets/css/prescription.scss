@@ -1,0 +1,158 @@
+@import 'variables.scss';
+
+.prescription{
+
+    background-color: rgb(227, 227, 227);
+    
+    .date{
+       
+        p{
+            font-size: 20px;
+
+        }
+    }
+
+
+    .add{
+        a{
+            border: 1px solid white;
+            &:hover{
+                background-color: blue;
+            }
+        }
+    }
+    
+.main-prescription{
+
+    background-color: $c-dark-blue;
+    color: white;
+}
+
+    .healthallcol{
+        background-color: white;
+    }
+    .date-share{
+        display: flex;
+        justify-content: space-between;
+
+
+        .share-add{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .health-situation{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        .first-four{
+            
+            background-color: white;
+            width: 200px;
+            height: 250px;
+            padding: 10px;
+            .upper-icon{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 15px;
+
+                .left-upper{
+                    i{
+                        color: rgb(204, 204, 204);
+                    }
+                }
+             
+            }
+
+            .middle-icon{
+                font-size: 50px;
+                margin-bottom: 15px;
+            }
+
+            a{
+                font-size: 20px;
+
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+
+
+        .fifth{
+            background-color: white;
+            width: 400px;
+            height: 250px;
+            padding: 10px;
+            .upper-icon{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 15px;
+
+                .left-upper{
+                    i{
+                        color: rgb(204, 204, 204);
+                    }
+                }
+
+
+            }
+
+            .middle-icon{
+                font-size: 50px;
+                margin-bottom: 15px;
+            }
+
+            a{
+                font-size: 20px;
+
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+    
+
+
+    .medical-report{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+  
+
+        .medical-report-all{
+
+            background-color: white;
+            width: 400px;
+            height: 270px;
+
+            .medical-report-all-header{
+                display: flex;
+                justify-content: space-between;
+                background-color: $c-dark-blue;
+                color: white;
+            }
+        }
+
+
+
+    }
+
+
+    }
+   
+
+
+
+

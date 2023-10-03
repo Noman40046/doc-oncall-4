@@ -1,0 +1,24 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #4A4A4A;
+  background: #FFF;
+}
+
+.btn {
+  background: #F5A623;
+  border-color: #F5A623;
+  color: #FFF;
+}
+.btn:hover, .btn:active {
+  background-color: #F5A623 !important;
+  border-color: #F5A623 !important;
+  color: #FFF !important;
+}
+
+::-moz-placeholder {
+  color: #DADADA;
+}
+
+::placeholder {
+  color: #DADADA;
+}/*# sourceMappingURL=common.css.map */

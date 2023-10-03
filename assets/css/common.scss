@@ -1,0 +1,29 @@
+@import 'variables.scss';
+body {
+    font-family: $f-primary;
+    color: $c-primary;
+    background: $c-white;
+  }
+  
+  .btn {
+    background: $c-yellow;
+    border-color: $c-yellow;
+    color: $c-white;
+    &:hover, &:active {
+      background-color: $c-yellow !important;
+      border-color: $c-yellow !important;
+      color: $c-white !important;
+    }
+  }
+  
+  ::-webkit-input-placeholder { /* Edge */
+    color: $c-placeholder;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: $c-placeholder;
+  }
+  
+  ::placeholder {
+    color: $c-placeholder;
+  }

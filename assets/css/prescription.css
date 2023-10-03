@@ -1,0 +1,104 @@
+.prescription {
+  background-color: rgb(227, 227, 227);
+}
+.prescription .date p {
+  font-size: 20px;
+}
+.prescription .add a {
+  border: 1px solid white;
+}
+.prescription .add a:hover {
+  background-color: blue;
+}
+.prescription .main-prescription {
+  background-color: #448AFF;
+  color: white;
+}
+.prescription .healthallcol {
+  background-color: white;
+}
+.prescription .date-share {
+  display: flex;
+  justify-content: space-between;
+}
+.prescription .date-share .share-add {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.prescription .date-share .share-add a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.prescription .health-situation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.prescription .health-situation .first-four {
+  background-color: white;
+  width: 200px;
+  height: 250px;
+  padding: 10px;
+}
+.prescription .health-situation .first-four .upper-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.prescription .health-situation .first-four .upper-icon .left-upper i {
+  color: rgb(204, 204, 204);
+}
+.prescription .health-situation .first-four .middle-icon {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.prescription .health-situation .first-four a {
+  font-size: 20px;
+}
+.prescription .health-situation .first-four p {
+  font-size: 20px;
+}
+.prescription .health-situation .fifth {
+  background-color: white;
+  width: 400px;
+  height: 250px;
+  padding: 10px;
+}
+.prescription .health-situation .fifth .upper-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.prescription .health-situation .fifth .upper-icon .left-upper i {
+  color: rgb(204, 204, 204);
+}
+.prescription .health-situation .fifth .middle-icon {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.prescription .health-situation .fifth a {
+  font-size: 20px;
+}
+.prescription .health-situation .fifth p {
+  font-size: 20px;
+}
+.prescription .medical-report {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.prescription .medical-report .medical-report-all {
+  background-color: white;
+  width: 400px;
+  height: 270px;
+}
+.prescription .medical-report .medical-report-all .medical-report-all-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #448AFF;
+  color: white;
+}/*# sourceMappingURL=prescription.css.map */

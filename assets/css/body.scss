@@ -1,0 +1,174 @@
+@import 'variables.scss';
+.main {
+    background: url(../img/bg.png);
+    background-size: cover;
+  
+    .container {
+      max-width: 1050px;
+    }
+  }
+
+  
+  .dr-warpper {
+    padding: 0 0 70px 0;
+  }
+  
+  .dr-list {
+    background: #FBFBFB;
+  border: 1px solid #53A8CB;
+  border-radius: 10px;
+  padding: 30px 20px 10px 20px;
+  text-align: center;
+  margin-top: 30px;
+  }
+  
+  .drname {
+    font-family: $f-secondary;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: $c-black;
+    margin-top: 10px;
+    display: flex;
+      justify-content: center;
+  
+    span {
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 10px;
+      border: 1px solid #53A8CB;
+      border-radius: 3px;
+      position: relative;
+      margin-left: 12px;
+      display: flex;
+      align-self: center;
+      padding: 3px;
+  
+      img {
+        width: 10px;
+        height: 10px;
+        // /background: url(../img/Star.png);
+        background-repeat: no-repeat;
+        margin-right: 5px;
+      }
+    }
+  }
+  
+  .drdegree {
+    font-family: $f-secondary;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 5px;
+  }
+  
+  
+  .drlocation {
+    font-family: $f-secondary;
+    font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  }
+  
+  .profile-fees {
+    font-family: $f-secondary;
+    font-weight: 400;
+  font-size: 15px;
+  margin-top: 32px;
+  line-height: 22px;
+  }
+  
+  .second-wrapper {
+    .dr-list {
+      display: block;
+      flex-wrap: wrap;
+      padding: 20px;
+      text-align: left;
+      @media (min-width: 768px) {
+        display: flex;
+      }
+    }
+    .drimage {
+      width: auto;
+      height: 200px;
+      text-align: center;
+      @media (min-width: 768px) {
+        width: 200px;
+      }
+    }
+    .dr-details {
+      
+      @media (min-width: 768px) {
+        width: calc(100% - 220px);
+        margin-left: 20px;
+      }
+    }
+    .drname {
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 22px;
+      justify-content: flex-start;
+      span {
+        font-size: 17.1429px;
+        line-height: 17px;
+        margin-left: 0;
+        @media (min-width: 768px) {
+          margin-left: 12px;
+        }
+  
+        img {
+          width: 17.14px;
+          height: 17.14px;
+        }
+      }
+    }
+    .drdegree {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 22px;
+      margin-top: 20px;
+      text-align: center;
+      @media (min-width: 768px) {
+        text-align: left;
+      }
+    }
+    .drlocation {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      margin-top: 11px;
+      text-align: center;
+      @media (min-width: 768px) {
+        text-align: left;
+      }
+    }
+    .drdetails {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 13px;
+      margin-top: 11px;
+      text-align: center;
+      @media (min-width: 768px) {
+        text-align: left;
+      }
+    }
+    .drAppointment {
+      margin-top: 17.11px;
+      .btn {
+        padding: 10px 40.5px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 13px;
+        background: $c-dark-blue;
+        border-color: $c-dark-blue;
+      }
+      
+    }
+    .dr-fees {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 22px;
+      text-align: center;
+    }
+  }
