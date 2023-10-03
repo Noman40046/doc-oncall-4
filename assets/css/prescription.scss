@@ -147,12 +147,38 @@
         }
 
 
-
     }
 
 
     }
    
+
+
+
+    /* form------- */
+    .medical-report{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+  
+
+        .medical-report-all-form{
+
+            background-color: white;
+            width: 500px;
+            height: 500px;
+
+            .medical-report-all-header{
+                display: flex;
+                justify-content: space-between;
+                background-color: $c-dark-blue;
+                color: white;
+            }
+        }
+
+
+    }
 
 
 
@@ -180,10 +206,5 @@
      }
 
 
-    @media only screen and (max-width: 991px) and (min-width: 769px) 
-     {
 
-        
-      
-     }
 

@@ -103,6 +103,25 @@
   color: white;
 }
 
+/* form------- */
+.medical-report {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.medical-report .medical-report-all-form {
+  background-color: white;
+  width: 500px;
+  height: 500px;
+}
+.medical-report .medical-report-all-form .medical-report-all-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #448AFF;
+  color: white;
+}
+
 /* responsive--------- */
 @media only screen and (max-width: 768px) and (min-width: 0px) {
   .health-situation {
