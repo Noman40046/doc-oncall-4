@@ -101,4 +101,22 @@
   justify-content: space-between;
   background-color: #448AFF;
   color: white;
+}
+
+/* responsive--------- */
+@media only screen and (max-width: 768px) and (min-width: 0px) {
+  .health-situation {
+    display: flex;
+    flex-direction: column;
+  }
+  .prescription .health-situation .fifth {
+    width: 300px;
+  }
+  .medical-report {
+    display: flex;
+    flex-direction: column;
+  }
+  .prescription .medical-report .medical-report-all {
+    width: 300px;
+  }
 }/*# sourceMappingURL=prescription.css.map */

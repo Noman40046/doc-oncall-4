@@ -5,9 +5,10 @@
     background-color: rgb(227, 227, 227);
     
     .date{
-       
+     
         p{
             font-size: 20px;
+            
 
         }
     }
@@ -155,4 +156,26 @@
 
 
 
+    /* responsive--------- */
+    @media only screen and (max-width: 768px) and (min-width: 0px) 
+     {
+
+        .health-situation{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .prescription .health-situation .fifth{
+            width: 300px;
+        }
+
+        .medical-report {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .prescription .medical-report .medical-report-all{
+            width: 300px;
+        }
+     }
 
